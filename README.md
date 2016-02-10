@@ -1,0 +1,1 @@
+# cozysdk-client-vanilla
