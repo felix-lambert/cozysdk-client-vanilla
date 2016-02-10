@@ -1,0 +1,18 @@
+{
+    "name": "cozy-cozysdk-client-vanilla",
+    "version": "0.0.1",
+    "description": "An application to get you started with serverless web app development and Cozy.",
+    "cozy-type": "static",
+    "cozy-displayName": "Serverless app example",
+    "icon-path": "main_icon.png",
+    "author": "lemelon",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lemelon/cozysdk-client-vanilla.git"
+    },
+    "cozy-permissions": {
+        "Contact": {
+            "description": "To easily find your contact when talking about someone."
+        }
+    }
+}
