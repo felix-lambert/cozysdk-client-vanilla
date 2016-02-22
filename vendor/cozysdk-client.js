@@ -205,6 +205,8 @@ playRequest = function(method, path, attributes, callback) {
       err = 'Request failed : #{e.target.status}';
       return callback(err);
     };
+    console.log(auth.appName);
+    console.log(auth.token);
     xhr.setRequestHeader('Content-Type', 'application/json');
     xhr.setRequestHeader('Authorization', 'Basic ' + btoa(auth.appName + ':' + auth.token));
     if (attributes != null) {
