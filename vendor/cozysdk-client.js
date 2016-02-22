@@ -191,7 +191,10 @@ module.exports = {
 };
 
 playRequest = function(method, path, attributes, callback) {
+  console.log('play request')
   return getToken(function(err, auth) {
+    console.log(err);
+    console.log(auth);
     var xhr;
     if (err) {
       return callback(err);
