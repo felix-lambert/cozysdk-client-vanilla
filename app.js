@@ -96,8 +96,8 @@ function render(contacts) {
 	var i;
 	var HTML = '';
 	for (i = 0; i < contacts.length; i++) {
-		var template = '<tr data-id="' + contacts[i].id '">' 
-		+ '<td><input value="' + contacts[i].key '"" class="edit"></td>' 
+		var template = '<tr data-id="' + contacts[i].id + '">' 
+		+ '<td><input value="' + contacts[i].key + '"" class="edit"></td>' 
 		+ '<td><input type="button" class="update" value="Update"></td>' 
 		+ '<td><input type="button" class="destroy" value="Destroy"></td>' 
 		+ '</tr>';
